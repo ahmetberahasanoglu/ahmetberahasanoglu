@@ -11,7 +11,7 @@ int kucukdeger(int diz[],int index){
 		}
 	}
 	return enKucuk;//1
-}// Hepsini topladýgýmýzda T(n)=3n+3 oluyor
+}// Hepsini topladigimizda T(n)=3n+3 oluyor
 int main(int argc, char *argv[]) {
 	int dizi[5]={5,10,4,123,32};
     printf("Dizinin en kucuk degeri: %d ",kucukdeger(dizi,4));
